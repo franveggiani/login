@@ -1,8 +1,20 @@
-import React from 'react'
+
+import Header from "../components/Header"
+import Signup from "../components/Signup"
 
 function SignupPage() {
   return (
-    <div>SignupPage</div>
+    <>
+      <Header
+        heading={'Sign-Up and create your account'}
+        paragraph={'Do you have an account?'}
+        linkName={'Log-in'}
+        linkUrl={'/'}
+      />
+
+      <Signup />
+      
+    </>
   )
 }
 
